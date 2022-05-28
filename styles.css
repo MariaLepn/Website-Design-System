@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Alegreya Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/alegreyasans/v21/5aUt9_-1phKLFgshYDvh6Vwt7V9dv21T.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/alegreyasans/v21/5aUz9_-1phKLFgshYDvh6Vwt7VptvQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/alegreyasans/v21/5aUu9_-1phKLFgshYDvh6Vwt5eFIqEp2iw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Arvo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arvo/v20/tDbD2oWUg0MKqScQ7Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Arvo';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arvo/v20/tDbN2oWUg0MKqSIg75Tv.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Arvo';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arvo/v20/tDbM2oWUg0MKoZw1-LPK8w.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4m0qyriQwlOrhSvowK_l5-eRZOf-I.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  h1 {
+      font-family: Alegria Sans;
+  }
+
+  h2 {
+      font-family: Arvo;
+  }
+
+  li {
+      line-height: 2;
+  }
+
+  
+  #castlerock {
+      background-color: #5D5C61;
+      height: 100px;
+      width: 150px;
+  }
+
+  #moleskin {
+      background-color: #B1A296;
+      height: 100px;
+      width: 150px;
+  }
+
+  #greenjelly {
+    height: 100px;
+    width: 150px;
+    background-color: #379683;
+  }
+
+  #cranberry {
+    height: 100px;
+    width: 150px;
+    background-color: #7395AE;
+  }
+
+  #sapphire {
+    height: 100px;
+    width: 150px;
+    background-color: #557A95;
+  }
+
+  
+  header {
+      font-size: 26px;
+      text-align: center;
+      
+  }
+  .regular {
+      font-weight: 400;
+  }
+
+  .italic {
+      font-style: italic;
+  } 
+
+  .bold {
+      font-weight: bold;
+  }
+
+  .merriweather {
+      font-family: Merriweather;
+  }
+
+  .arvo {
+      font-family: Arvo;
+  }
+
+  .alegriasans {
+      font-family: Alegria Sans;
+  }
+
+  #fonts {
+      border: 2px solid grey;
+      padding: 15px;
+      margin: 80px;
+  }
+
+  #colors {
+    color: white;
+    border: 2px solid grey;
+    padding: 15px;
+    margin: 80px;
+    display: flex;
+    font-size: 17px;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+  
+  }
+
+  #textstyle {
+    border: 2px solid grey;
+    padding: 15px;
+    margin: 80px;
+  }
